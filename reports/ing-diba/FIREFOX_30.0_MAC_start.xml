@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="start"
+             errors="0"
+             failures="0"
+             tests="2">
+  
+  <testsuite errors="0" failures="0" hostname="" id=""
+    name="Startpage ING-DiBa" package="start" skipped="0"
+    tests="2" time="" timestamp="">
+    
+    
+      <testcase name="Testing if element &lt;.header__logo&gt; is visible.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;.header-actions__item:nth-child(1)&gt; contains text: &quot;Start&quot;.">
+        
+        
+      </testcase>
+    
+    
+    </testsuite>
+  
+</testsuites>

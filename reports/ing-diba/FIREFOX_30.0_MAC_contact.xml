@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="contact"
+             errors="0"
+             failures="0"
+             tests="3">
+  
+  <testsuite errors="0" failures="0" hostname="" id=""
+    name="Contact ING-DiBa" package="contact" skipped="0"
+    tests="3" time="" timestamp="">
+    
+    
+      <testcase name="Testing if element &lt;//ul[contains(@class,&#39;pw12-tabs&#39;)]/li[position()=3]/a[@id=&#39;tab-adresse&#39;]&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="third tab in contact windows exists">
+        
+        
+      </testcase>
+    
+      <testcase name="tab name is Anschrift">
+        
+        
+      </testcase>
+    
+    
+    </testsuite>
+  
+</testsuites>

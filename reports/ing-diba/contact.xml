@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="contact"
+             errors="0"
+             failures="0"
+             tests="8">
+  
+  <testsuite errors="0" failures="0" hostname="" id=""
+    name="Contact ING-DiBa" package="contact" skipped="8"
+    tests="8" time="" timestamp="">
+    
+    
+    
+      <system-err>
+        Cannot call method &#39;log&#39; of undefined
+      </system-err>
+    
+    </testsuite>
+  
+</testsuites>
