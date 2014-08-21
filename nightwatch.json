@@ -3,11 +3,14 @@
   "output_folder" : "reports",
 
   "selenium" : {
-    "start_process" : false,
+    "start_process" : true,
     "server_path" : "selenium-server-standalone-2.42.2.jar",
     "log_path" : "logs",
     "host" : "127.0.0.1",
-    "port" : 4444  
+    "port" : 4444,
+	"cli_args" : {
+	  	"webdriver.chrome.driver" : "/Users/vinogradov/Downloads/chromedriver"
+	 }  
   },
   
   "test_settings" : {
@@ -23,6 +26,14 @@
       },
       "desiredCapabilities": {
         "browserName": "firefox",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+    "chrome" : {
+      "launch_url" : "http://www.ing-diba.de",
+      "desiredCapabilities": {
+        "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
