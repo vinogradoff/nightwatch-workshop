@@ -1,0 +1,36 @@
+Aug 21, 2014 1:09:44 AM org.openqa.grid.selenium.GridLauncher main
+Information: Launching a standalone server
+Setting system property webdriver.chrome.driver to /Users/vinogradov/Downloads/chromedriver
+01:09:44.414 INFO - Java: Oracle Corporation 24.45-b08
+01:09:44.415 INFO - OS: Mac OS X 10.9.4 x86_64
+01:09:44.427 INFO - v2.42.2, with Core v2.42.2. Built from revision 6a6995d
+01:09:44.526 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+01:09:44.585 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+01:09:44.586 INFO - Version Jetty/5.1.x
+01:09:44.587 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+01:09:44.588 INFO - Started HttpContext[/selenium-server,/selenium-server]
+01:09:44.588 INFO - Started HttpContext[/,/]
+01:09:44.614 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@5c05f93d
+01:09:44.614 INFO - Started HttpContext[/wd,/wd]
+01:09:44.619 INFO - Started SocketListener on 0.0.0.0:4444
+01:09:44.619 INFO - Started org.openqa.jetty.jetty.Server@1720d359
+01:09:44.889 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=chrome}]])
+01:09:44.904 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=chrome}]
+Starting ChromeDriver (v2.10.267517) on port 3019
+Only local connections are allowed.
+01:09:48.111 INFO - Done: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=chrome}]]
+01:09:48.126 INFO - Executing: [get: http://www.ing-diba.de])
+01:09:56.200 INFO - Done: [get: http://www.ing-diba.de]
+01:09:56.207 INFO - Executing: [find element: By.selector: .header__logo])
+01:09:56.244 INFO - Done: [find element: By.selector: .header__logo]
+01:09:56.249 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (44cdb8614ecb31a036c47ba6688f715e)] -> css selector: .header__logo]])
+01:09:56.270 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (44cdb8614ecb31a036c47ba6688f715e)] -> css selector: .header__logo]]
+01:09:56.275 INFO - Executing: [find element: By.selector: .header-actions__item:nth-child(1)])
+01:09:56.290 INFO - Done: [find element: By.selector: .header-actions__item:nth-child(1)]
+01:09:56.294 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (44cdb8614ecb31a036c47ba6688f715e)] -> css selector: .header-actions__item:nth-child(1)]])
+01:09:56.318 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (44cdb8614ecb31a036c47ba6688f715e)] -> css selector: .header-actions__item:nth-child(1)]]
+01:09:56.324 INFO - Executing: [take screenshot])
+01:09:56.859 INFO - Done: [take screenshot]
+01:09:56.974 INFO - Executing: [delete session: dbe74404-4bf2-42d8-8cad-ae5b203d0285])
+01:09:57.581 INFO - Done: [delete session: dbe74404-4bf2-42d8-8cad-ae5b203d0285]
+01:09:57.604 INFO - Shutting down...
